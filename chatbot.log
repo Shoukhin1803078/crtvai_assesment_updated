@@ -1,0 +1,201 @@
+2024-12-03 16:06:36,692 - INFO - Database initialized successfully
+2024-12-03 16:06:36,692 - INFO - Starting Flask application
+2024-12-03 16:06:41,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.11.163:5000
+2024-12-03 16:06:41,727 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 16:06:41,729 - INFO -  * Restarting with stat
+2024-12-03 16:06:41,858 - INFO - Database initialized successfully
+2024-12-03 16:06:41,859 - INFO - Starting Flask application
+2024-12-03 16:06:41,870 - WARNING -  * Debugger is active!
+2024-12-03 16:06:41,876 - INFO -  * Debugger PIN: 119-358-096
+2024-12-03 16:06:44,553 - INFO - 127.0.0.1 - - [03/Dec/2024 16:06:44] "GET / HTTP/1.1" 200 -
+2024-12-03 16:06:44,656 - INFO - 127.0.0.1 - - [03/Dec/2024 16:06:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2024-12-03 16:06:56,048 - INFO - Received chat request
+2024-12-03 16:06:56,049 - INFO - Processing message for phone: 01843737414
+2024-12-03 16:06:56,059 - INFO - Current state for 01843737414: initial
+2024-12-03 16:06:56,059 - INFO - New state for 01843737414: initial
+2024-12-03 16:06:56,060 - INFO - Successfully processed message for 01843737414
+2024-12-03 16:06:56,060 - INFO - 127.0.0.1 - - [03/Dec/2024 16:06:56] "POST /chat HTTP/1.1" 200 -
+2024-12-03 16:06:58,232 - INFO - Received chat request
+2024-12-03 16:06:58,233 - INFO - Processing message for phone: 01843737414
+2024-12-03 16:06:58,240 - INFO - Current state for 01843737414: initial
+2024-12-03 16:06:58,240 - INFO - New state for 01843737414: waiting_for_name
+2024-12-03 16:06:58,244 - INFO - Successfully processed message for 01843737414
+2024-12-03 16:06:58,244 - INFO - 127.0.0.1 - - [03/Dec/2024 16:06:58] "POST /chat HTTP/1.1" 200 -
+2024-12-03 16:07:04,469 - INFO - Received chat request
+2024-12-03 16:07:04,469 - INFO - Processing message for phone: 01843737414
+2024-12-03 16:07:04,473 - INFO - Current state for 01843737414: waiting_for_name
+2024-12-03 16:07:04,473 - INFO - New state for 01843737414: waiting_for_song
+2024-12-03 16:07:04,479 - INFO - Successfully processed message for 01843737414
+2024-12-03 16:07:04,479 - INFO - 127.0.0.1 - - [03/Dec/2024 16:07:04] "POST /chat HTTP/1.1" 200 -
+2024-12-03 16:07:07,547 - INFO - Received chat request
+2024-12-03 16:07:07,548 - INFO - Processing message for phone: 01843737414
+2024-12-03 16:07:07,552 - INFO - Current state for 01843737414: waiting_for_song
+2024-12-03 16:07:07,552 - INFO - New state for 01843737414: completed
+2024-12-03 16:07:07,556 - INFO - Successfully processed message for 01843737414
+2024-12-03 16:07:07,556 - INFO - 127.0.0.1 - - [03/Dec/2024 16:07:07] "POST /chat HTTP/1.1" 200 -
+2024-12-03 10:50:25,081 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:25,082 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:25,422 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:25,422 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:25,851 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:25,851 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:26,511 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:26,511 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:27,567 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:27,567 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:29,453 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:29,453 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:32,919 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:32,919 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:39,584 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:39,584 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:50:52,656 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:50:52,657 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:51:18,574 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:51:18,574 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:52:10,174 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:52:10,174 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:29,712 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:29,713 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:30,341 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:30,342 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:30,828 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:30,828 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:31,506 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:31,506 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:32,557 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:32,557 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:34,425 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:34,425 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:37,897 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:37,897 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:44,603 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:44,603 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:53:57,696 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:53:57,696 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:23,661 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:23,661 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:52,334 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:52,334 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:52,798 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:52,798 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:53,328 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:53,329 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:53,987 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:53,987 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:55,089 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:55,089 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:54:57,023 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:54:57,024 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:55:00,509 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:55:00,509 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:55:07,277 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:55:07,277 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:55:20,504 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:55:20,504 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:55:46,478 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:55:46,480 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:56:38,081 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:56:38,081 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:22,850 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:22,850 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:23,298 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:23,298 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:23,764 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:23,764 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:24,450 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:24,450 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:25,503 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:25,503 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:27,376 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:27,376 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:30,849 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:30,850 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:37,544 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:37,544 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:57:50,711 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:57:50,712 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:58:16,723 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:58:16,724 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 10:59:08,363 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 10:59:08,363 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:00:08,753 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:00:08,753 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:05,409 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:05,410 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:05,968 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:05,968 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:06,462 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:06,462 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:07,142 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:07,142 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:08,220 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:08,220 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:10,132 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:10,132 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:13,618 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:13,619 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:01:20,277 - ERROR - Database initialization error: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:01:20,277 - CRITICAL - Failed to start application: local variable 'conn' referenced before assignment
+2024-12-03 11:03:37,665 - WARNING - Database connection attempt 1/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:38,672 - WARNING - Database connection attempt 2/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:39,677 - WARNING - Database connection attempt 3/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:40,683 - WARNING - Database connection attempt 4/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:41,688 - WARNING - Database connection attempt 5/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:42,692 - WARNING - Database connection attempt 6/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:43,698 - WARNING - Database connection attempt 7/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:44,702 - WARNING - Database connection attempt 8/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:45,707 - WARNING - Database connection attempt 9/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:46,713 - WARNING - Database connection attempt 10/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:47,718 - WARNING - Database connection attempt 11/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:48,723 - WARNING - Database connection attempt 12/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:49,727 - WARNING - Database connection attempt 13/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:50,731 - WARNING - Database connection attempt 14/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:51,736 - WARNING - Database connection attempt 15/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:52,740 - WARNING - Database connection attempt 16/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:53,745 - WARNING - Database connection attempt 17/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:54,750 - WARNING - Database connection attempt 18/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:55,754 - WARNING - Database connection attempt 19/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:56,760 - WARNING - Database connection attempt 20/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:03:57,767 - WARNING - Database connection attempt 21/30 failed: 2003 (HY000): Can't connect to MySQL server on 'localhost:3306' (111)
+2024-12-03 11:15:33,555 - INFO - Database initialized successfully
+2024-12-03 11:15:33,555 - INFO - Starting Flask application
+2024-12-03 11:15:33,578 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2024-12-03 11:15:33,578 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 11:15:33,578 - INFO -  * Restarting with stat
+2024-12-03 11:15:33,689 - INFO - Database initialized successfully
+2024-12-03 11:15:33,689 - INFO - Starting Flask application
+2024-12-03 11:15:33,693 - WARNING -  * Debugger is active!
+2024-12-03 11:15:33,694 - INFO -  * Debugger PIN: 881-369-179
+2024-12-03 11:15:43,369 - INFO - 172.18.0.1 - - [03/Dec/2024 11:15:43] "GET / HTTP/1.1" 200 -
+2024-12-03 11:15:43,478 - INFO - 172.18.0.1 - - [03/Dec/2024 11:15:43] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2024-12-03 11:16:20,400 - INFO - Received chat request
+2024-12-03 11:16:20,402 - INFO - Processing message for phone: 01924964860
+2024-12-03 11:16:20,460 - INFO - Current state for 01924964860: initial
+2024-12-03 11:16:20,461 - INFO - New state for 01924964860: initial
+2024-12-03 11:16:20,461 - INFO - Successfully processed message for 01924964860
+2024-12-03 11:16:20,461 - INFO - 172.18.0.1 - - [03/Dec/2024 11:16:20] "POST /chat HTTP/1.1" 200 -
+2024-12-03 11:16:30,496 - INFO - Received chat request
+2024-12-03 11:16:30,498 - INFO - Processing message for phone: 01924964860
+2024-12-03 11:16:30,545 - INFO - Current state for 01924964860: initial
+2024-12-03 11:16:30,545 - INFO - New state for 01924964860: waiting_for_name
+2024-12-03 11:16:30,575 - INFO - Successfully processed message for 01924964860
+2024-12-03 11:16:30,575 - INFO - 172.18.0.1 - - [03/Dec/2024 11:16:30] "POST /chat HTTP/1.1" 200 -
+2024-12-03 11:16:36,278 - INFO - Received chat request
+2024-12-03 11:16:36,280 - INFO - Processing message for phone: 01924964860
+2024-12-03 11:16:36,321 - INFO - Current state for 01924964860: waiting_for_name
+2024-12-03 11:16:36,321 - INFO - New state for 01924964860: waiting_for_song
+2024-12-03 11:16:36,345 - INFO - Successfully processed message for 01924964860
+2024-12-03 11:16:36,345 - INFO - 172.18.0.1 - - [03/Dec/2024 11:16:36] "POST /chat HTTP/1.1" 200 -
+2024-12-03 11:16:44,987 - INFO - Received chat request
+2024-12-03 11:16:44,988 - INFO - Processing message for phone: 01924964860
+2024-12-03 11:16:45,027 - INFO - Current state for 01924964860: waiting_for_song
+2024-12-03 11:16:45,027 - INFO - New state for 01924964860: completed
+2024-12-03 11:16:45,051 - INFO - Successfully processed message for 01924964860
+2024-12-03 11:16:45,051 - INFO - 172.18.0.1 - - [03/Dec/2024 11:16:45] "POST /chat HTTP/1.1" 200 -
